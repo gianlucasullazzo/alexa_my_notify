@@ -38,10 +38,10 @@ Create the skill from Alexa Developer Console. Give it the name you want.
 - Template: **scratch**
 - Invocation Name: **custom tts** (please, keep in mind this value)
 
-At this point save the Skill and then copy the content of ```interaction_model.json``` into the JSON Editor.
+At this point save the Skill and then copy the content of [```interaction_model.json```](https://github.com/gianlucasullazzo/alexa_my_notify/blob/main/interaction_model.json) into the JSON Editor.
 Save the Skill and build it.
 
-Once built, go to ```code``` section and replace the content of the ```index.js``` and ```package.json``` files.
+Once built, go to ```code``` section and replace the content of the [```index.js```](https://github.com/gianlucasullazzo/alexa_my_notify/blob/main/index.js) and [```package.json```](https://github.com/gianlucasullazzo/alexa_my_notify/blob/main/package.json) files.
 
 Please remember to change ```ha_url``` and ```ha_token``` constants value inside ```index.js```.
 

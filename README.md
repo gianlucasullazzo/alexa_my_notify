@@ -200,3 +200,24 @@ data:
 ```
 
 This will produce an output variable: ```intent: ResponseYes```, for example.
+
+You can use it in automations/scripts like this:
+```
+alias: test_alexa_answer
+sequence:
+  - action: script.alexa_tts_launch
+    data:
+      need_answer: true
+      suppress_confirmation: false
+      alexa_device: show
+      text: vuoi accendere la luce?
+    response_variable: response
+  - if:
+      - condition: template
+        value_template: "{{response.intent == 'ResponseYes'}}"
+    then:
+      - action: light.turn_on
+        target:
+          entity_id: light.faretti
+description: ""
+```

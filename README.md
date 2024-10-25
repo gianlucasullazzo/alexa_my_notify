@@ -2,6 +2,8 @@
 
 The aim of this project is to avoid the use of Alexa Media Player custom component for tts/announce. It also provide a support for actionable notification.
 
+This project does not replace at all AMP since it does not provide media_player functionalities like audio file play, custom commands like skill invocation, volume adjustment and so on.
+
 **This project is not for beginners.**
 
 Let's assume:

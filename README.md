@@ -50,7 +50,7 @@ Click save and deploy: once deployed, go to test and enable the deveopment stage
 
 
 ### Create HomeAssistan entities/scripts
-In Home Assistant create an ```input_boolean``` helper for each echo device you want to use: ```input_boolean.alexa_tts_**<echo_name>**```
+In Home Assistant create an ```input_boolean``` helper for each echo device you want to use: ```input_boolean.alexa_tts_<echo_name>```
 
 ***At this point you should expose these entities to Alexa through your provider (Nabu or Haaska).***
 

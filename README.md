@@ -1,7 +1,8 @@
 # Alexa Custom Notify with actionable notification
 
 The aim of this project is to avoid the use of Alexa Media Player custom component for tts/announce. It also provide a support for actionable notification.
-This project is not for beginners. 
+
+**This project is not for beginners.**
 
 Let's assume:
 - you know what is the Amazon Developer Console

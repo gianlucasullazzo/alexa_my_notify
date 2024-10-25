@@ -21,7 +21,7 @@ Let's assume:
 
 ## Check list
 1. Create Alexa Skill
-2. Create HomeAssistan entities/scripts
+2. Create Home Assistant entities/scripts
 3. Create Alexa Routine(s)
 4. Test
  

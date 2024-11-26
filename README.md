@@ -46,7 +46,7 @@ Once built, go to ```code``` section and replace the content of the [```index.js
 Please remember to change ```ha_url``` and ```ha_token``` constants value inside ```index.js```.
 
 
-Click save and deploy: once deployed, go to test and enable the deveopment stage.
+Click save and deploy: once deployed, go to test and enable the development stage.
 
 
 ### Create Home Assistant entities/scripts
